@@ -4,7 +4,7 @@
 *.dll
 *.so
 *.dylib
-qiita-to-csv
+/qiita-to-csv
 
 # Test binary, built with `go test -c`
 *.test
@@ -21,8 +21,10 @@ go.work
 # macOS specific files
 .DS_Store
 
-# CSV data files
+# Output data files
 *.csv
+*.json
+qiita_items_*.md
 
 # IDE specific files
 .idea/
